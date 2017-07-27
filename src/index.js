@@ -1,6 +1,6 @@
 require("@mapd/connector/dist/browser-connector")
 
-module.exports = class Connector {
+module.exports = class Thrifty {
   constructor (config) {
     this.connection = new MapdCon()
       .protocol(config.protocol)
